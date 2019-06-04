@@ -1,0 +1,20 @@
+.quote-bar {
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin: 20px 0;
+    width: 100%;
+    background-image: url("green.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+.quote {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+.author {
+    font-family: "Pacifico";
+    font-size: 16px;
+}

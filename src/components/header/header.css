@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0 7%;
+    height: 70px;
+}
+
+.header a {
+    text-decoration: none;
+    padding: 30px;
+}
+.header .nav a {
+    /*text-transform: lowercase;*/
+    font-family: 'Federo', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.nav {
+    position: relative;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px; 
+    font-style: normal; 
+    font-variant: normal; 
+    line-height: 26.4px;
+    letter-spacing: 1px;    
+    color: #0C2E0F;
+}
+
+.header .nav .nav__link:first-child {
+    color: #159675;
+    
+}
+
+.nav__link:hover {
+    color: #159675;
+    cursor: pointer;
+}
+
+
+.nav__link{
+    position: relative;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav__link::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #0C2E0F;
+    position: absolute;
+    right: calc(50% - 30px);
+    transform: scale(0, 0);
+    margin-top: 3px;
+    transition: .5s;
+}
+.nav__link:hover::after{
+      transform: scale(1, 1);
+}
+
+.search-input {
+    width: 170px;
+    height: 28px;
+    margin: 0 10px;
+    padding: 0 5px;
+}
+.search-button {
+    width: 60px;
+    height: 32px;
+    color: white;
+    background-color: #346338;
+    border: none;
+}
+
+@media only screen and (max-width: 900px) {
+   .nav__link {
+    padding: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 370px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+ }
