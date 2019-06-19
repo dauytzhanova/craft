@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+.info-icon {
+    width: 25px;
+    height: 25px;
+}
+i {
+    border: none;
+}
+.company-info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.info-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.info-desc {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+

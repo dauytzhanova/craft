@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+.my-acc-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.options {
+    width: 50%;
+    height: 600px;
+    background-image: url("./acc.jpg");
+    background-size: cover;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.options ul {
+    height: 100%;
+    width:30%;
+    background-color: rgba(255, 255, 255, .7);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   list-style-type: none;
+   padding: 20px;
+}
+.options li {
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px; 
+}
+.profile-part {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello-title {
+    font-size: 30px;    
+    color: #4F8C7D;
+}
+
+.complete-account{
+    padding-bottom: 20px;
+    font-family: 'Noto Sans HK', sans-serif;
+    margin-top: 5px;
+}

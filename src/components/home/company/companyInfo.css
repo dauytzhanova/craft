@@ -1,0 +1,5 @@
+.company-info {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}

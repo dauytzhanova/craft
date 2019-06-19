@@ -6,6 +6,8 @@
     background-color: #fff;
     padding: 0 7%;
     height: 70px;
+    box-shadow: 0px -15px 60px #757575;
+    margin-bottom: 1px;
 }
 
 .header a {
@@ -33,9 +35,13 @@
     color: #0C2E0F;
 }
 
-.header .nav .nav__link:first-child {
+.header .nav .nav__link {
     color: #159675;
     
+}
+
+.header .nav .nav__link:hover {
+    color: #159675;
 }
 
 .nav__link:hover {
@@ -66,19 +72,6 @@
       transform: scale(1, 1);
 }
 
-.search-input {
-    width: 170px;
-    height: 28px;
-    margin: 0 10px;
-    padding: 0 5px;
-}
-.search-button {
-    width: 60px;
-    height: 32px;
-    color: white;
-    background-color: #346338;
-    border: none;
-}
 
 @media only screen and (max-width: 900px) {
    .nav__link {
@@ -100,3 +93,73 @@
     }
 
  }
+
+  /* The container <div> - needed to position the dropdown content */
+
+.header .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+.header .dropdown-content {
+    position: absolute;
+    left: 18%;
+    background-color: #fff;
+    width: 120px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .header .dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+  }
+  
+  .header .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .header .show {display:block;}
+
+  .search-input {
+    width: 170px;
+    height: 28px;
+    margin: 0 10px;
+    padding: 0 5px;
+}
+.search-button {
+    width: 60px;
+    height: 32px;
+    color: white;
+    background-color: #4F8C7D;
+    border: none;
+    position: relative;
+}
+.search-button-box {
+    display: inline-block;
+}
+.search-title {
+    color: white;
+    padding: 5px !important;
+}
+.search-button:hover  {
+    color: white;
+    background-color: black;
+    border: none;
+    position: relative;
+}
+
+.search-button:active {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.search-title:active {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap');
+.book-img {
+    width: 170px;
+    height: 220px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    padding-top: 20px;
+    height: 250px;
+}
+.card-info {
+    position: relative;
+    text-align: center;
+}
+
+.card-details{
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.card-details :not(img) {
+    position: absolute;
+    justify-content: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    top: 50%;
+    width: 100%;
+    visibility: hidden;
+    transition: .3s;
+}
+.card-details:hover .book-img {
+    opacity: 0.1;
+    transition: .2s;
+}
+.card-details:hover :not(img) {
+    visibility: visible; 
+}
+

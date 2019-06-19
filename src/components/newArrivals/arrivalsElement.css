@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+.book-img {
+    width: 170px;
+    height: 220px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    padding-top: 20px;
+    height: 250px;
+}
+.card-info {
+    position: relative;
+    text-align: center;
+}
+.card-details:hover  .book-img{
+    width: 175px;
+    height: 225px;
+    transition: .7s;
+}
+.card-details{
+    position: relative;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 0 30px #95A597;
+
+}
+
+.card-details :not(img) {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    top: 50%;
+    width: 100%;
+    visibility: hidden;
+    transition: .3s;
+}
+.card-details:hover .book-img {
+    opacity: 0.1;
+    transition: .2s;
+}
+.card-details:hover :not(img) {
+    visibility: visible; 
+}
+
+.card-details .book-title {
+    z-index: 2;
+}
+
+.card-details .book-author {
+    position: absolute;
+    visibility: visible;
+    bottom: -150px;
+    font-size: 12px;
+    font-family: 'Noto Serif', serif;
+
+}

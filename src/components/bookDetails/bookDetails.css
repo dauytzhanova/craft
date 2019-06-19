@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+.book-details {
+    background-color: #4F8C7D;
+    padding: 40px;
+}
+.book-details-container {
+    background-color: white;
+    padding: 50px;
+}
+.book-preview {
+    display: flex;
+    flex-direction: row;
+}
+.book-preview-img {
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 0 30px #95A597;
+
+}
+.book-preview-img-block {
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+}
+.book-preview-general {
+    padding: 50px 50px 50px 0;
+    width: 40%;
+}
+.book-details-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.book-details-author {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.book-details-price {
+    margin:20px 0;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.details-add-too-cart {
+    margin-top: 18px;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 0;
+    background-color: #4F8C7D;
+    color: white;
+}
+.details-add-too-cart:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.details-add-too-cart:active {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.book-preview-detailed {
+    border: 1px solid #C2DAC5;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.about-the-book {
+    width: 40%;
+    padding: 30px;
+}
+.book-features-details {
+    padding: 30px 150px;    
+}
+.details-custom {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.book-features-details-title {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-the-book-title {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.features-elements {
+    padding: 3px;
+    font-size: 15px;
+}
+.book-comments {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-comment-text-area {
+    width: 40%;
+    height: 70px;
+}
+.add-comment-button {
+    width: 40.5%;
+    margin: 20px 0;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+.add-comment-button:hover, .add-comment-button:active {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.book-features-details-title {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.userName-text-area {
+    width: 40%;
+    margin: 20px;
+}
+
+.posted-comments {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment-block-title {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.comment-author {
+    font-weight: 500;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    color: #4F8C7D;
+}
+.posted-comments-c{
+    width: 60%;
+    position: relative;
+}
+.comment-content {
+    font-family: 'Domine', serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.comment-delete {
+    border: none;
+    text-decoration: underline;
+    color: black;
+    position: absolute;
+    font-size: 14px;
+    right: 0px;
+}

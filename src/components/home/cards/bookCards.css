@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+.book-cards {
+    display: flex;
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    left: 3%;
+    margin: 50px 13px 50px 13px;
+    padding: 10px 5px 0 5px;
+    align-items: center;
+}
+.cards-title {
+    font-family: 'Advent Pro', sans-serif !important;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.title-desc {
+    font-style: italic;    
+    font-family: 'Merriweather', serif;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 6px 18px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2.5px;
+    margin-left: 8px;
+    position: relative;
+    bottom: 2px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  /* Dropdown button on hover & focus */
+  .book-cards .dropbtn:hover, .dropbtn:focus {
+    background-color: #DEEADF;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+
+  .book-cards .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .book-cards  .dropdown-content {
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .book-cards .dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .book-cards  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .book-cards .show {display:block;}

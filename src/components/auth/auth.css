@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');.auth-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: #4F8C7D;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.auth-page-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 700px;
+    background-color: white;
+    width:50%;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.auth-title{
+    margin: 30px 0 10px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 46px;
+    font-weight: 500;
+}
+.auth-label {
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.auth-input {
+    height: 35px;
+}
+.auth-button {
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.auth-button:hover, .auth-button:active  {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.auth-page-rest {
+    color: white;
+    background-image: url('./images//signup.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    width: 50%;
+}
+.page-rest-off {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    text-align: center;
+    width: 400px;
+}
+.page-rest-list {
+    margin-top: 130px;
+}
+.list-element {
+    line-height: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.offer {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 0.2px;
+}
+.terms{
+    color: gray;
+    margin-top: 20px;
+}
+
+.to-link {
+    color: black;
+    text-decoration: none;
+}
+.to-link:hover, .to-link:focus {
+    text-decoration: underline;
+}
+
+.rest-login{
+    background-image: url('./images/login.jpg');
+    background-size: cover;
+}
+.title-login {
+    font-size: 42px;
+}
+
+.validate h6 {
+    color: red;
+    font-size: 12px;
+}

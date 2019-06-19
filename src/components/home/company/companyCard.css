@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+.company-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    position: relative;
+    left: 4%;
+    padding: 30px 5px 20px 5px;
+    margin-bottom: 30px;
+}
+
+.company-bckg {
+        width: 90%;
+        border: 1px solid #C0D3C2;
+        padding: 17px;
+}
+.more-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Gothic A1', sans-serif;
+    padding: 0 3px 3px 0.5px;
+}
+
+.more-link:hover {
+    border-bottom: 1px solid black;
+}

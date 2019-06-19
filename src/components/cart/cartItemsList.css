@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed&display=swap');
+.cart-list-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #C0D3C2;
+    border-left: none;
+    border-right: none;
+    padding: 20px 70px;
+    margin-top: 25px;
+}
+strong {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+.cart-item-header-details {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.strong-Item {
+    width: 40%;
+}

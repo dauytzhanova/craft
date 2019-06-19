@@ -1,0 +1,17 @@
+.book-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-elements .slick-list {
+    width: 1162px !important;
+}
+
+.book-elements .slick-prev:before, .slick-next:before {
+    color: black;
+}
+.book-elements .slick-slide div {
+    display: flex;
+    justify-content: center;
+}
