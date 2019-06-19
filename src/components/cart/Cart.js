@@ -32,7 +32,7 @@ export default class Cart extends Component {
                     <CartItemsList itemsList = {db.books} />
                     <div className="subtotal">
                     <h3 className="subtotal-title">Subtotal</h3>
-                    <h2 className="subtotal-price">$0</h2>
+                    <h2 className="subtotal-price">$16</h2>
                 </div>
                 <button className="buy-button" onClick={this.buy}>Buy</button>
                 </div>

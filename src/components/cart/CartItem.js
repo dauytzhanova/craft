@@ -29,7 +29,7 @@ export default class CartItem extends Component {
                 </div>
                 <div className="item-details">
                     <div className="item-quantity">
-                        <p>0</p>
+                        <p>1</p>
                         <a className="remove-item" href="#" onClick={this.removeFromCart(bookItem.id)}>REMOVE</a>
                     </div>
                     <div className="item-price"><p>{bookItem.price}</p></div>
