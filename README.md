@@ -1,6 +1,6 @@
 # Craft - Online Bookstore 
 
-Online Bookstore 'Craft' is a website with simple convenient functionalities and nice minimalistic design.
+Online Bookstore 'Craft' is a website with simple convenient functionalities and nice minimalistic design on React.js.
 
 ![home](/screens/home.png)
 
